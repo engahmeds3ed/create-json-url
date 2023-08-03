@@ -1,0 +1,22 @@
+name: 'create-json-url'
+author: 'engahmeds3ed'
+description: 'Create an JSON file from a url.'
+inputs:
+  name:
+    description: 'The name of the file to be written. | file.json '
+    required: true
+  url:
+    description: 'URL of the external json file '
+    required: true
+  dir:
+    description: 'Optional subfolder directory to save the json file. | src/ '
+    required: false
+outputs:
+  successfully:
+    description: 'Saved successfully '
+runs:
+  using: "node16"
+  main: "./dist/index.js"
+branding:
+  icon: 'file-text'
+  color: 'blue'

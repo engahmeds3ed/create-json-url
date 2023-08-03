@@ -1,0 +1,27 @@
+{
+  "name": "create-json-url",
+  "version": "0.0.1",
+  "description": "Create an JSON file from a url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engahmeds3ed/create-json-url.git"
+  },
+  "author": "Ahmed Saeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/engahmeds3ed/create-json-url/issues"
+  },
+  "homepage": "https://github.com/engahmeds3ed/create-json-url#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.36.1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
