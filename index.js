@@ -15,7 +15,7 @@ try {
 		.then(response => {
 			core.info(`Url content is downloaded.`);
 
-			response.json().then(jsonContent => {
+			response.text().then(jsonContent => {
 
 				core.info(`Creating json file ${fullPath}...`);
 
